@@ -1,4 +1,4 @@
-[**KiotViet FNB SDK v0.1.0**](../README.md)
+[**KiotViet FNB SDK v1.0.0**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: CategoryListResponse
 
-Defined in: types/category.ts:21
+Defined in: [types/category.ts:21](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L21)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: types/category.ts:21
 
 > **data**: [`Category`](Category.md)[]
 
-Defined in: types/category.ts:24
+Defined in: [types/category.ts:24](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L24)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: types/category.ts:24
 
 > **pageSize**: `number`
 
-Defined in: types/category.ts:23
+Defined in: [types/category.ts:23](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L23)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: types/category.ts:23
 
 > **removedIds**: `number`[]
 
-Defined in: types/category.ts:25
+Defined in: [types/category.ts:25](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L25)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: types/category.ts:25
 
 > **timestamp**: `string`
 
-Defined in: types/category.ts:26
+Defined in: [types/category.ts:26](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L26)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: types/category.ts:26
 
 > **total**: `number`
 
-Defined in: types/category.ts:22
+Defined in: [types/category.ts:22](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L22)

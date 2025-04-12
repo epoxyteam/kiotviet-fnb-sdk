@@ -1,4 +1,4 @@
-[**KiotViet FNB SDK v0.1.0**](../README.md)
+[**KiotViet FNB SDK v1.0.0**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: CategoryListParams
 
-Defined in: types/category.ts:12
+Defined in: [types/category.ts:12](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L12)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: types/category.ts:12
 
 > `optional` **currentItem**: `number`
 
-Defined in: types/category.ts:15
+Defined in: [types/category.ts:15](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L15)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: types/category.ts:15
 
 > `optional` **hierachicalData**: `boolean`
 
-Defined in: types/category.ts:18
+Defined in: [types/category.ts:18](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L18)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: types/category.ts:18
 
 > `optional` **lastModifiedFrom**: `string`
 
-Defined in: types/category.ts:13
+Defined in: [types/category.ts:13](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L13)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: types/category.ts:13
 
 > `optional` **orderBy**: `string`
 
-Defined in: types/category.ts:16
+Defined in: [types/category.ts:16](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L16)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: types/category.ts:16
 
 > `optional` **orderDirection**: `"Asc"` \| `"Desc"`
 
-Defined in: types/category.ts:17
+Defined in: [types/category.ts:17](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L17)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: types/category.ts:17
 
 > `optional` **pageSize**: `number`
 
-Defined in: types/category.ts:14
+Defined in: [types/category.ts:14](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L14)

@@ -1,4 +1,4 @@
-[**KiotViet FNB SDK v0.1.0**](../README.md)
+[**KiotViet FNB SDK v1.0.0**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: StoredToken
 
-Defined in: auth/types.ts:13
+Defined in: [auth/types.ts:13](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/auth/types.ts#L13)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: auth/types.ts:13
 
 > **access\_token**: `string`
 
-Defined in: auth/types.ts:8
+Defined in: [auth/types.ts:8](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/auth/types.ts#L8)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: auth/types.ts:8
 
 > **expires\_in**: `number`
 
-Defined in: auth/types.ts:9
+Defined in: [auth/types.ts:9](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/auth/types.ts#L9)
 
 #### Inherited from
 
@@ -42,7 +42,7 @@ Defined in: auth/types.ts:9
 
 > **expiresAt**: `number`
 
-Defined in: auth/types.ts:14
+Defined in: [auth/types.ts:14](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/auth/types.ts#L14)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: auth/types.ts:14
 
 > **token\_type**: `string`
 
-Defined in: auth/types.ts:10
+Defined in: [auth/types.ts:10](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/auth/types.ts#L10)
 
 #### Inherited from
 

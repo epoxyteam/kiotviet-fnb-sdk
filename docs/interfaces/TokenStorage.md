@@ -1,4 +1,4 @@
-[**KiotViet FNB SDK v0.1.0**](../README.md)
+[**KiotViet FNB SDK v1.0.0**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: TokenStorage
 
-Defined in: auth/types.ts:23
+Defined in: [auth/types.ts:23](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/auth/types.ts#L23)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: auth/types.ts:23
 
 > **getToken**(): `Promise`\<`null` \| [`StoredToken`](StoredToken.md)\>
 
-Defined in: auth/types.ts:25
+Defined in: [auth/types.ts:25](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/auth/types.ts#L25)
 
 #### Returns
 
@@ -26,7 +26,7 @@ Defined in: auth/types.ts:25
 
 > **removeToken**(): `Promise`\<`void`\>
 
-Defined in: auth/types.ts:26
+Defined in: [auth/types.ts:26](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/auth/types.ts#L26)
 
 #### Returns
 
@@ -38,7 +38,7 @@ Defined in: auth/types.ts:26
 
 > **saveToken**(`token`): `Promise`\<`void`\>
 
-Defined in: auth/types.ts:24
+Defined in: [auth/types.ts:24](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/auth/types.ts#L24)
 
 #### Parameters
 
