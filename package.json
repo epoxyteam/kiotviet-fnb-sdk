@@ -1,38 +1,46 @@
 {
   "name": "kiotviet-fnb-sdk",
-  "version": "0.1.0",
-  "description": "TypeScript SDK for KiotViet FNB API",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for KiotViet FNB API with full type support and real-time webhook capabilities",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
     "prepare": "npm run build",
-    "docs": "typedoc"
+    "docs": "typedoc",
+    "prepublishOnly": "npm run build"
   },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "keywords": [
     "kiotviet",
     "fnb",
     "api",
     "sdk",
-    "typescript"
+    "typescript",
+    "webhook",
+    "websocket",
+    "pos",
+    "restaurant",
+    "coffee"
   ],
-  "author": {
-    "name": "Phong H.",
-    "email": "huyphongbn24@gmail.com",
-    "url": "https://github.com/doivjpxx"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/epoxyteam/kiotviet-fnb-sdk.git"
+    "url": "https://github.com/epoxyteam/kiotviet-fnb-sdk.git"
   },
   "bugs": {
     "url": "https://github.com/epoxyteam/kiotviet-fnb-sdk/issues"
   },
   "homepage": "https://github.com/epoxyteam/kiotviet-fnb-sdk#readme",
+  "author": {
+    "name": "Phong H.",
+    "email": "huyphongbn24@gmail.com",
+    "url": "https://github.com/doivjpxx"
+  },
   "license": "MIT",
   "dependencies": {
     "axios": "^1.6.7",
@@ -41,11 +49,15 @@
   "devDependencies": {
     "@types/node": "^20.11.24",
     "@types/ws": "^8.5.10",
+    "rimraf": "^5.0.5",
     "typedoc": "^0.28.0",
     "typedoc-plugin-markdown": "^4.0.0",
     "typescript": "^5.3.3"
   },
   "engines": {
     "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
