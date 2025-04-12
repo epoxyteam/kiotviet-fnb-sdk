@@ -1,0 +1,12 @@
+{
+  "entryPoints": ["src/index.ts"],
+  "out": "docs",
+  "name": "KiotViet FNB SDK",
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "includeVersion": true,
+  "categorizeByGroup": true,
+  "categoryOrder": ["Authentication", "API Endpoints", "*"],
+  "readme": "none",
+  "plugin": ["typedoc-plugin-markdown"]
+}
