@@ -9,8 +9,8 @@ export interface HttpClientConfig {
 
 export class HttpClient {
   private client: AxiosInstance;
-  private tokenManager: TokenManager;
   private retailer: string;
+  readonly tokenManager: TokenManager;
 
   constructor(config: HttpClientConfig) {
     this.tokenManager = config.tokenManager;
