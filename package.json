@@ -48,7 +48,7 @@
   "devDependencies": {
     "@types/node": "^20.11.24",
     "@types/ws": "^8.5.10",
-    "rimraf": "^5.0.5",
+    "rimraf": "^6.1.0",
     "typedoc": "^0.28.0",
     "typedoc-plugin-markdown": "^4.0.0",
     "typescript": "^5.3.3"
