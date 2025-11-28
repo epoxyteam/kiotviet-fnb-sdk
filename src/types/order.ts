@@ -6,7 +6,7 @@ export interface OrderDetail {
   rank: number;
 }
 
-export interface PartnerDelivery {
+export interface OrderPartnerDelivery {
   code: string;
   name: string;
 }
@@ -18,7 +18,7 @@ export interface DeliveryDetail {
   locationName: string;
   wardName: string;
   deliveryCode?: number;
-  partnerDelivery?: PartnerDelivery;
+  partnerDelivery?: OrderPartnerDelivery;
   expectedDelivery?: string;
   price: number;
   status: number;
@@ -68,31 +68,6 @@ export interface OrderResponse {
     deliveryBy: number;
     expectedDelivery?: string;
     status: number;
-    partnerDelivery?: PartnerDelivery;
+    partnerDelivery?: OrderPartnerDelivery;
   };
-}
-
-export interface OrderListParams {
-  branchIds?: number[];
-  customerIds?: number[];
-  customerCode?: string;
-  status?: number[];
-  includePayment?: boolean;
-  includeInvoiceDelivery?: boolean;
-  lastModifiedFrom?: string;
-  pageSize?: number;
-  currentItem?: number;
-  toDate?: string;
-  orderBy?: string;
-  orderDirection?: 'Asc' | 'Desc';
-  orderId?: number;
-  createdDate?: string;
-  fromPurchaseDate?: string;
-  toPurchaseDate?: string;
-}
-
-export interface OrderListResponse {
-  total: number;
-  pageSize: number;
-  data: OrderResponse[];
 }

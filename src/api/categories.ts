@@ -29,13 +29,5 @@ export class CategoriesApi {
     return data.data;
   }
 
-  /**
-   * Get a category by code
-   * @param code The code of the category
-   * @returns Promise with the category details
-   */
-  async getByCode(code: string): Promise<Category> {
-    const { data } = await this.client.get<CategoryResponse>(`${this.baseUrl}/code/${code}`);
-    return data.data;
-  }
+
 }

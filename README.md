@@ -35,9 +35,6 @@ const categories = await client.categories.list({
 
 // Get by ID
 const category = await client.categories.get(123);
-
-// Get by code
-const categoryByCode = await client.categories.getByCode('CAT001');
 ```
 
 ### Products
@@ -90,26 +87,8 @@ const orderId = await client.orders.create({
   }
 });
 
-// Get by UUID
+// Get order by UUID
 const order = await client.orders.getByUuid(orderId);
-
-// List orders
-const orders = await client.orders.list({
-  branchIds: [1, 2],
-  customerIds: [123],
-  status: [1, 2],
-  includePayment: true,
-  pageSize: 20
-});
-
-// Get by branches
-const branchOrders = await client.orders.getByBranches([1, 2]);
-
-// Get by customers
-const customerOrders = await client.orders.getByCustomers([123]);
-
-// Get by status
-const statusOrders = await client.orders.getByStatus([1, 2]);
 ```
 
 ### Customers
@@ -148,6 +127,68 @@ const searchResults = await client.customers.search('John');
 
 // Delete customer
 await client.customers.delete(123);
+```
+
+### Branches
+
+```typescript
+// List all branches
+const branches = await client.branches.list({
+  pageSize: 20,
+  orderBy: 'branchName',
+  orderDirection: 'Asc'
+});
+
+// Get all branches (without pagination)
+const allBranches = await client.branches.getAll();
+
+// Get by ID
+const branch = await client.branches.get(1);
+
+// Get by retailer ID
+const retailerBranches = await client.branches.getByRetailer(123);
+```
+
+### Invoices
+
+```typescript
+// List invoices
+const invoices = await client.invoices.list({
+  pageSize: 20,
+  includePayment: true,
+  includeInvoiceDelivery: true,
+  branchIds: [1, 2],
+  customerIds: [123],
+  status: [1, 2],
+  SaleChannel: true        // Include sale channel info
+});
+
+// Get by ID
+const invoice = await client.invoices.get(123);
+
+// Get by code
+const invoice = await client.invoices.getByCode('INV001');
+
+// Get by branches
+const branchInvoices = await client.invoices.getByBranches([1, 2]);
+
+// Get by customers
+const customerInvoices = await client.invoices.getByCustomers([123]);
+
+// Get by customer code
+const invoices = await client.invoices.getByCustomerCode('CUST001');
+
+// Get by status
+const statusInvoices = await client.invoices.getByStatus([1, 2]);
+
+// Get by order ID
+const orderInvoices = await client.invoices.getByOrderId(456);
+
+// Get by date range
+const dateInvoices = await client.invoices.getByDateRange(
+  '2024-01-01',
+  '2024-12-31'
+);
 ```
 
 ### Webhooks & Real-time Updates

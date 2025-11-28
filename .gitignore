@@ -32,7 +32,6 @@ Thumbs.db
 coverage/
 
 # TypeDoc output
-docs/
 
 # Token storage files
 .kiotviet-token.json
