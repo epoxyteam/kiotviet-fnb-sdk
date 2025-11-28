@@ -1,4 +1,4 @@
-[**KiotViet FNB SDK v1.0.0**](../README.md)
+[**KiotViet FNB SDK v1.1.0**](../README.md)
 
 ***
 
@@ -8,4 +8,4 @@
 
 > **StorageType** = `"file"` \| `"memory"`
 
-Defined in: [auth/index.ts:6](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/auth/index.ts#L6)
+Defined in: [auth/index.ts:6](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/index.ts#L6)

@@ -1,4 +1,4 @@
-[**KiotViet FNB SDK v1.0.0**](../README.md)
+[**KiotViet FNB SDK v1.1.0**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: CategoryListResponse
 
-Defined in: [types/category.ts:21](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L21)
+Defined in: [types/category.ts:21](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/category.ts#L21)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types/category.ts:21](https://github.com/doivjpxx/kiotviet-fnb-sdk/
 
 > **data**: [`Category`](Category.md)[]
 
-Defined in: [types/category.ts:24](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L24)
+Defined in: [types/category.ts:24](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/category.ts#L24)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types/category.ts:24](https://github.com/doivjpxx/kiotviet-fnb-sdk/
 
 > **pageSize**: `number`
 
-Defined in: [types/category.ts:23](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L23)
+Defined in: [types/category.ts:23](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/category.ts#L23)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types/category.ts:23](https://github.com/doivjpxx/kiotviet-fnb-sdk/
 
 > **removedIds**: `number`[]
 
-Defined in: [types/category.ts:25](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L25)
+Defined in: [types/category.ts:25](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/category.ts#L25)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types/category.ts:25](https://github.com/doivjpxx/kiotviet-fnb-sdk/
 
 > **timestamp**: `string`
 
-Defined in: [types/category.ts:26](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L26)
+Defined in: [types/category.ts:26](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/category.ts#L26)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [types/category.ts:26](https://github.com/doivjpxx/kiotviet-fnb-sdk/
 
 > **total**: `number`
 
-Defined in: [types/category.ts:22](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/types/category.ts#L22)
+Defined in: [types/category.ts:22](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/category.ts#L22)

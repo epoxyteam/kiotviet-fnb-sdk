@@ -1,8 +1,8 @@
-**KiotViet FNB SDK v1.0.0**
+**KiotViet FNB SDK v1.1.0**
 
 ***
 
-# KiotViet FNB SDK v1.0.0
+# KiotViet FNB SDK v1.1.0
 
 ## Classes
 
@@ -11,6 +11,10 @@
 ## Interfaces
 
 - [AuthConfig](interfaces/AuthConfig.md)
+- [Branch](interfaces/Branch.md)
+- [BranchListParams](interfaces/BranchListParams.md)
+- [BranchListResponse](interfaces/BranchListResponse.md)
+- [BranchResponse](interfaces/BranchResponse.md)
 - [Category](interfaces/Category.md)
 - [CategoryListParams](interfaces/CategoryListParams.md)
 - [CategoryListResponse](interfaces/CategoryListResponse.md)
@@ -26,15 +30,23 @@
 - [DeleteCustomerResponse](interfaces/DeleteCustomerResponse.md)
 - [DeleteWebhookResponse](interfaces/DeleteWebhookResponse.md)
 - [DeliveryDetail](interfaces/DeliveryDetail.md)
+- [Invoice](interfaces/Invoice.md)
+- [InvoiceDelivery](interfaces/InvoiceDelivery.md)
+- [InvoiceDetail](interfaces/InvoiceDetail.md)
+- [InvoiceListParams](interfaces/InvoiceListParams.md)
+- [InvoiceListResponse](interfaces/InvoiceListResponse.md)
+- [InvoiceOrderSurcharge](interfaces/InvoiceOrderSurcharge.md)
+- [InvoicePayment](interfaces/InvoicePayment.md)
+- [InvoiceResponse](interfaces/InvoiceResponse.md)
 - [KiotVietClientConfig](interfaces/KiotVietClientConfig.md)
 - [OrderDetail](interfaces/OrderDetail.md)
-- [OrderListParams](interfaces/OrderListParams.md)
-- [OrderListResponse](interfaces/OrderListResponse.md)
+- [OrderPartnerDelivery](interfaces/OrderPartnerDelivery.md)
 - [OrderResponse](interfaces/OrderResponse.md)
 - [PartnerDelivery](interfaces/PartnerDelivery.md)
 - [PriceBook](interfaces/PriceBook.md)
 - [Product](interfaces/Product.md)
 - [ProductAttribute](interfaces/ProductAttribute.md)
+- [ProductBatchExpire](interfaces/ProductBatchExpire.md)
 - [ProductDeleteEvent](interfaces/ProductDeleteEvent.md)
 - [ProductFormula](interfaces/ProductFormula.md)
 - [ProductInventory](interfaces/ProductInventory.md)
@@ -45,6 +57,7 @@
 - [ProductUnit](interfaces/ProductUnit.md)
 - [ProductUpdateEvent](interfaces/ProductUpdateEvent.md)
 - [RegisterWebhookRequest](interfaces/RegisterWebhookRequest.md)
+- [SaleChannel](interfaces/SaleChannel.md)
 - [StockUpdateEvent](interfaces/StockUpdateEvent.md)
 - [StoredToken](interfaces/StoredToken.md)
 - [TokenManager](interfaces/TokenManager.md)

@@ -1,4 +1,4 @@
-[**KiotViet FNB SDK v1.0.0**](../README.md)
+[**KiotViet FNB SDK v1.1.0**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: TokenManager
 
-Defined in: [auth/types.ts:17](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/auth/types.ts#L17)
+Defined in: [auth/types.ts:17](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L17)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [auth/types.ts:17](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob
 
 > **getToken**(): `Promise`\<`string`\>
 
-Defined in: [auth/types.ts:18](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/auth/types.ts#L18)
+Defined in: [auth/types.ts:18](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L18)
 
 #### Returns
 
@@ -26,7 +26,7 @@ Defined in: [auth/types.ts:18](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob
 
 > **isTokenValid**(): `boolean`
 
-Defined in: [auth/types.ts:19](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/auth/types.ts#L19)
+Defined in: [auth/types.ts:19](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L19)
 
 #### Returns
 
@@ -38,7 +38,7 @@ Defined in: [auth/types.ts:19](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob
 
 > **refreshToken**(): `Promise`\<`void`\>
 
-Defined in: [auth/types.ts:20](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/auth/types.ts#L20)
+Defined in: [auth/types.ts:20](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L20)
 
 #### Returns
 

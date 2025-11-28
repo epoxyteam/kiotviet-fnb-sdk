@@ -1,4 +1,4 @@
-[**KiotViet FNB SDK v1.0.0**](../README.md)
+[**KiotViet FNB SDK v1.1.0**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: KiotVietClient
 
-Defined in: [index.ts:15](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/index.ts#L15)
+Defined in: [index.ts:17](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L17)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [index.ts:15](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd
 
 > **new KiotVietClient**(`config`): `KiotVietClient`
 
-Defined in: [index.ts:25](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/index.ts#L25)
+Defined in: [index.ts:29](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L29)
 
 #### Parameters
 
@@ -28,11 +28,19 @@ Defined in: [index.ts:25](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd
 
 ## Properties
 
+### branches
+
+> `readonly` **branches**: `BranchesApi`
+
+Defined in: [index.ts:26](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L26)
+
+***
+
 ### categories
 
 > `readonly` **categories**: `CategoriesApi`
 
-Defined in: [index.ts:19](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/index.ts#L19)
+Defined in: [index.ts:21](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L21)
 
 ***
 
@@ -40,7 +48,15 @@ Defined in: [index.ts:19](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd
 
 > `readonly` **customers**: `CustomersApi`
 
-Defined in: [index.ts:22](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/index.ts#L22)
+Defined in: [index.ts:24](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L24)
+
+***
+
+### invoices
+
+> `readonly` **invoices**: `InvoicesApi`
+
+Defined in: [index.ts:27](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L27)
 
 ***
 
@@ -48,7 +64,7 @@ Defined in: [index.ts:22](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd
 
 > `readonly` **orders**: `OrdersApi`
 
-Defined in: [index.ts:21](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/index.ts#L21)
+Defined in: [index.ts:23](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L23)
 
 ***
 
@@ -56,7 +72,7 @@ Defined in: [index.ts:21](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd
 
 > `readonly` **products**: `ProductsApi`
 
-Defined in: [index.ts:20](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/index.ts#L20)
+Defined in: [index.ts:22](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L22)
 
 ***
 
@@ -64,7 +80,7 @@ Defined in: [index.ts:20](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd
 
 > `readonly` **webhooks**: `WebhooksApi`
 
-Defined in: [index.ts:23](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/index.ts#L23)
+Defined in: [index.ts:25](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L25)
 
 ## Methods
 
@@ -72,7 +88,7 @@ Defined in: [index.ts:23](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd
 
 > **connectWebSocket**(`handlers`): `Promise`\<`void`\>
 
-Defined in: [index.ts:48](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/index.ts#L48)
+Defined in: [index.ts:54](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L54)
 
 Connect to the WebSocket server for real-time webhook events
 
@@ -94,7 +110,7 @@ Event handlers for different webhook events
 
 > **disconnectWebSocket**(): `void`
 
-Defined in: [index.ts:56](https://github.com/doivjpxx/kiotviet-fnb-sdk/blob/bcbd7df6deab54bfd1409ee101bd2b627620e9ef/src/index.ts#L56)
+Defined in: [index.ts:62](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L62)
 
 Disconnect from the WebSocket server
 
