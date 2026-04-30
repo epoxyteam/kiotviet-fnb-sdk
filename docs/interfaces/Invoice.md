@@ -6,7 +6,7 @@
 
 # Interface: Invoice
 
-Defined in: [types/invoice.ts:172](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L172)
+Defined in: [types/invoice.ts:172](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L172)
 
 Invoice entity
 
@@ -16,7 +16,7 @@ Invoice entity
 
 > **branchId**: `number`
 
-Defined in: [types/invoice.ts:182](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L182)
+Defined in: [types/invoice.ts:182](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L182)
 
 Branch ID
 
@@ -26,7 +26,7 @@ Branch ID
 
 > **branchName**: `string`
 
-Defined in: [types/invoice.ts:184](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L184)
+Defined in: [types/invoice.ts:184](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L184)
 
 Branch name
 
@@ -36,7 +36,7 @@ Branch name
 
 > **code**: `string`
 
-Defined in: [types/invoice.ts:176](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L176)
+Defined in: [types/invoice.ts:176](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L176)
 
 Invoice code
 
@@ -46,7 +46,7 @@ Invoice code
 
 > **createdDate**: `string`
 
-Defined in: [types/invoice.ts:208](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L208)
+Defined in: [types/invoice.ts:208](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L208)
 
 Creation date
 
@@ -56,7 +56,7 @@ Creation date
 
 > **customerCode**: `string`
 
-Defined in: [types/invoice.ts:192](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L192)
+Defined in: [types/invoice.ts:192](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L192)
 
 Customer code
 
@@ -66,7 +66,7 @@ Customer code
 
 > `optional` **customerId**: `number`
 
-Defined in: [types/invoice.ts:190](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L190)
+Defined in: [types/invoice.ts:190](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L190)
 
 Customer ID
 
@@ -76,7 +76,7 @@ Customer ID
 
 > **customerName**: `string`
 
-Defined in: [types/invoice.ts:194](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L194)
+Defined in: [types/invoice.ts:194](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L194)
 
 Customer name
 
@@ -86,7 +86,7 @@ Customer name
 
 > `optional` **description**: `string`
 
-Defined in: [types/invoice.ts:204](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L204)
+Defined in: [types/invoice.ts:204](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L204)
 
 Description/note
 
@@ -96,7 +96,7 @@ Description/note
 
 > **id**: `number`
 
-Defined in: [types/invoice.ts:174](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L174)
+Defined in: [types/invoice.ts:174](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L174)
 
 Invoice ID
 
@@ -106,7 +106,7 @@ Invoice ID
 
 > `optional` **invoiceDelivery**: [`InvoiceDelivery`](InvoiceDelivery.md)
 
-Defined in: [types/invoice.ts:220](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L220)
+Defined in: [types/invoice.ts:220](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L220)
 
 Invoice delivery information
 
@@ -116,7 +116,7 @@ Invoice delivery information
 
 > `optional` **invoiceDetails**: [`InvoiceDetail`](InvoiceDetail.md)[]
 
-Defined in: [types/invoice.ts:216](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L216)
+Defined in: [types/invoice.ts:216](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L216)
 
 Invoice details (line items)
 
@@ -126,7 +126,7 @@ Invoice details (line items)
 
 > `optional` **invoiceOrderSurcharges**: [`InvoiceOrderSurcharge`](InvoiceOrderSurcharge.md)[]
 
-Defined in: [types/invoice.ts:214](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L214)
+Defined in: [types/invoice.ts:214](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L214)
 
 Invoice order surcharges
 
@@ -136,7 +136,7 @@ Invoice order surcharges
 
 > **modifiedDate**: `string`
 
-Defined in: [types/invoice.ts:210](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L210)
+Defined in: [types/invoice.ts:210](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L210)
 
 Modification date
 
@@ -146,7 +146,7 @@ Modification date
 
 > `optional` **orderCode**: `string`
 
-Defined in: [types/invoice.ts:178](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L178)
+Defined in: [types/invoice.ts:178](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L178)
 
 Order code
 
@@ -156,7 +156,7 @@ Order code
 
 > `optional` **payments**: [`InvoicePayment`](InvoicePayment.md)[]
 
-Defined in: [types/invoice.ts:212](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L212)
+Defined in: [types/invoice.ts:212](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L212)
 
 Payment details
 
@@ -166,7 +166,7 @@ Payment details
 
 > **purchaseDate**: `string`
 
-Defined in: [types/invoice.ts:180](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L180)
+Defined in: [types/invoice.ts:180](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L180)
 
 Purchase date
 
@@ -176,7 +176,7 @@ Purchase date
 
 > `optional` **SaleChannel**: [`SaleChannel`](SaleChannel.md)
 
-Defined in: [types/invoice.ts:218](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L218)
+Defined in: [types/invoice.ts:218](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L218)
 
 Sale channel information
 
@@ -186,7 +186,7 @@ Sale channel information
 
 > `optional` **soldById**: `number`
 
-Defined in: [types/invoice.ts:186](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L186)
+Defined in: [types/invoice.ts:186](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L186)
 
 Sold by user ID
 
@@ -196,7 +196,7 @@ Sold by user ID
 
 > **soldByName**: `string`
 
-Defined in: [types/invoice.ts:188](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L188)
+Defined in: [types/invoice.ts:188](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L188)
 
 Sold by user name
 
@@ -206,7 +206,7 @@ Sold by user name
 
 > **status**: `number`
 
-Defined in: [types/invoice.ts:200](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L200)
+Defined in: [types/invoice.ts:200](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L200)
 
 Invoice status
 
@@ -216,7 +216,7 @@ Invoice status
 
 > **statusValue**: `string`
 
-Defined in: [types/invoice.ts:202](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L202)
+Defined in: [types/invoice.ts:202](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L202)
 
 Invoice status value (text)
 
@@ -226,7 +226,7 @@ Invoice status value (text)
 
 > **total**: `number`
 
-Defined in: [types/invoice.ts:196](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L196)
+Defined in: [types/invoice.ts:196](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L196)
 
 Total amount customer needs to pay
 
@@ -236,7 +236,7 @@ Total amount customer needs to pay
 
 > **totalPayment**: `number`
 
-Defined in: [types/invoice.ts:198](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L198)
+Defined in: [types/invoice.ts:198](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L198)
 
 Total amount customer has paid
 
@@ -246,6 +246,6 @@ Total amount customer has paid
 
 > **usingCod**: `boolean`
 
-Defined in: [types/invoice.ts:206](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L206)
+Defined in: [types/invoice.ts:206](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L206)
 
 Using COD

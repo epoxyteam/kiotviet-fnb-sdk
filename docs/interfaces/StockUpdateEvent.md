@@ -6,7 +6,7 @@
 
 # Interface: StockUpdateEvent
 
-Defined in: [types/webhook.ts:93](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L93)
+Defined in: [types/webhook.ts:101](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L101)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [types/webhook.ts:93](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **Attempt**: `number`
 
-Defined in: [types/webhook.ts:40](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L40)
+Defined in: [types/webhook.ts:48](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L48)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: [types/webhook.ts:40](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **Data**: `object`[]
 
-Defined in: [types/webhook.ts:94](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L94)
+Defined in: [types/webhook.ts:102](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L102)
 
 #### BranchId
 
@@ -70,7 +70,7 @@ Defined in: [types/webhook.ts:94](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **Id**: `string`
 
-Defined in: [types/webhook.ts:39](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L39)
+Defined in: [types/webhook.ts:47](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L47)
 
 #### Inherited from
 
@@ -82,7 +82,7 @@ Defined in: [types/webhook.ts:39](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **Notifications**: `object`[]
 
-Defined in: [types/webhook.ts:41](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L41)
+Defined in: [types/webhook.ts:49](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L49)
 
 #### Action
 

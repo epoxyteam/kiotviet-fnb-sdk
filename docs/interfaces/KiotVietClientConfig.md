@@ -6,7 +6,7 @@
 
 # Interface: KiotVietClientConfig
 
-Defined in: [index.ts:12](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L12)
+Defined in: [index.ts:16](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L16)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [index.ts:12](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676
 
 > **clientId**: `string`
 
-Defined in: [auth/types.ts:2](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L2)
+Defined in: [auth/types.ts:2](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/auth/types.ts#L2)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: [auth/types.ts:2](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob
 
 > **clientSecret**: `string`
 
-Defined in: [auth/types.ts:3](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L3)
+Defined in: [auth/types.ts:3](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/auth/types.ts#L3)
 
 #### Inherited from
 
@@ -42,7 +42,7 @@ Defined in: [auth/types.ts:3](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob
 
 > **retailer**: `string`
 
-Defined in: [auth/types.ts:4](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L4)
+Defined in: [auth/types.ts:4](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/auth/types.ts#L4)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: [auth/types.ts:4](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob
 
 > `optional` **storageType**: [`StorageType`](../type-aliases/StorageType.md)
 
-Defined in: [index.ts:13](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L13)
+Defined in: [index.ts:17](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L17)
 
 ***
 
@@ -62,4 +62,4 @@ Defined in: [index.ts:13](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676
 
 > `optional` **websocket**: [`WebSocketConfig`](WebSocketConfig.md)
 
-Defined in: [index.ts:14](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L14)
+Defined in: [index.ts:18](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L18)

@@ -6,7 +6,7 @@
 
 # Interface: TokenResponse
 
-Defined in: [auth/types.ts:7](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L7)
+Defined in: [auth/types.ts:7](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/auth/types.ts#L7)
 
 ## Extended by
 
@@ -18,7 +18,7 @@ Defined in: [auth/types.ts:7](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob
 
 > **access\_token**: `string`
 
-Defined in: [auth/types.ts:8](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L8)
+Defined in: [auth/types.ts:8](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/auth/types.ts#L8)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [auth/types.ts:8](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob
 
 > **expires\_in**: `number`
 
-Defined in: [auth/types.ts:9](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L9)
+Defined in: [auth/types.ts:9](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/auth/types.ts#L9)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [auth/types.ts:9](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob
 
 > **token\_type**: `string`
 
-Defined in: [auth/types.ts:10](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L10)
+Defined in: [auth/types.ts:10](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/auth/types.ts#L10)

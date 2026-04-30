@@ -6,7 +6,7 @@
 
 # Interface: OrderDetail
 
-Defined in: [types/order.ts:1](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/order.ts#L1)
+Defined in: [types/order.ts:1](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/order.ts#L1)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types/order.ts:1](https://github.com/epoxyteam/kiotviet-fnb-sdk/blo
 
 > `optional` **note**: `string`
 
-Defined in: [types/order.ts:5](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/order.ts#L5)
+Defined in: [types/order.ts:5](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/order.ts#L5)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types/order.ts:5](https://github.com/epoxyteam/kiotviet-fnb-sdk/blo
 
 > **price**: `number`
 
-Defined in: [types/order.ts:4](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/order.ts#L4)
+Defined in: [types/order.ts:4](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/order.ts#L4)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types/order.ts:4](https://github.com/epoxyteam/kiotviet-fnb-sdk/blo
 
 > **productId**: `number`
 
-Defined in: [types/order.ts:2](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/order.ts#L2)
+Defined in: [types/order.ts:2](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/order.ts#L2)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types/order.ts:2](https://github.com/epoxyteam/kiotviet-fnb-sdk/blo
 
 > **quantity**: `number`
 
-Defined in: [types/order.ts:3](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/order.ts#L3)
+Defined in: [types/order.ts:3](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/order.ts#L3)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [types/order.ts:3](https://github.com/epoxyteam/kiotviet-fnb-sdk/blo
 
 > **rank**: `number`
 
-Defined in: [types/order.ts:6](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/order.ts#L6)
+Defined in: [types/order.ts:6](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/order.ts#L6)

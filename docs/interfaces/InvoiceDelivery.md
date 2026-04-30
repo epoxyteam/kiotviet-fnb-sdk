@@ -6,7 +6,7 @@
 
 # Interface: InvoiceDelivery
 
-Defined in: [types/invoice.ts:130](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L130)
+Defined in: [types/invoice.ts:130](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L130)
 
 Invoice delivery information
 
@@ -16,7 +16,7 @@ Invoice delivery information
 
 > **address**: `string`
 
-Defined in: [types/invoice.ts:146](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L146)
+Defined in: [types/invoice.ts:146](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L146)
 
 Delivery address
 
@@ -26,7 +26,7 @@ Delivery address
 
 > **contactNumber**: `string`
 
-Defined in: [types/invoice.ts:144](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L144)
+Defined in: [types/invoice.ts:144](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L144)
 
 Contact number
 
@@ -36,7 +36,7 @@ Contact number
 
 > **deliveryCode**: `string`
 
-Defined in: [types/invoice.ts:132](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L132)
+Defined in: [types/invoice.ts:132](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L132)
 
 Delivery code
 
@@ -46,7 +46,7 @@ Delivery code
 
 > `optional` **height**: `number`
 
-Defined in: [types/invoice.ts:162](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L162)
+Defined in: [types/invoice.ts:162](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L162)
 
 Package height
 
@@ -56,7 +56,7 @@ Package height
 
 > `optional` **length**: `number`
 
-Defined in: [types/invoice.ts:158](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L158)
+Defined in: [types/invoice.ts:158](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L158)
 
 Package length
 
@@ -66,7 +66,7 @@ Package length
 
 > `optional` **locationId**: `number`
 
-Defined in: [types/invoice.ts:148](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L148)
+Defined in: [types/invoice.ts:148](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L148)
 
 Location ID
 
@@ -76,7 +76,7 @@ Location ID
 
 > **locationName**: `string`
 
-Defined in: [types/invoice.ts:150](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L150)
+Defined in: [types/invoice.ts:150](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L150)
 
 Location name
 
@@ -86,7 +86,7 @@ Location name
 
 > `optional` **partnerDelivery**: [`PartnerDelivery`](PartnerDelivery.md)
 
-Defined in: [types/invoice.ts:166](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L166)
+Defined in: [types/invoice.ts:166](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L166)
 
 Partner delivery information
 
@@ -96,7 +96,7 @@ Partner delivery information
 
 > `optional` **partnerDeliveryId**: `number`
 
-Defined in: [types/invoice.ts:164](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L164)
+Defined in: [types/invoice.ts:164](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L164)
 
 Partner delivery ID
 
@@ -106,7 +106,7 @@ Partner delivery ID
 
 > `optional` **price**: `number`
 
-Defined in: [types/invoice.ts:140](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L140)
+Defined in: [types/invoice.ts:140](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L140)
 
 Delivery price
 
@@ -116,7 +116,7 @@ Delivery price
 
 > **priceCodPayment**: `number`
 
-Defined in: [types/invoice.ts:154](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L154)
+Defined in: [types/invoice.ts:154](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L154)
 
 COD payment amount
 
@@ -126,7 +126,7 @@ COD payment amount
 
 > **receiver**: `string`
 
-Defined in: [types/invoice.ts:142](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L142)
+Defined in: [types/invoice.ts:142](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L142)
 
 Receiver name
 
@@ -136,7 +136,7 @@ Receiver name
 
 > **status**: `number`
 
-Defined in: [types/invoice.ts:136](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L136)
+Defined in: [types/invoice.ts:136](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L136)
 
 Delivery status (1: not delivered, 2: delivering, 3: delivered, 4: returning, 5: returned, 6: cancelled)
 
@@ -146,7 +146,7 @@ Delivery status (1: not delivered, 2: delivering, 3: delivered, 4: returning, 5:
 
 > **statusValue**: `string`
 
-Defined in: [types/invoice.ts:138](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L138)
+Defined in: [types/invoice.ts:138](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L138)
 
 Delivery status value (text)
 
@@ -156,7 +156,7 @@ Delivery status value (text)
 
 > `optional` **type**: `number`
 
-Defined in: [types/invoice.ts:134](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L134)
+Defined in: [types/invoice.ts:134](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L134)
 
 Delivery type
 
@@ -166,7 +166,7 @@ Delivery type
 
 > **usingPriceCod**: `boolean`
 
-Defined in: [types/invoice.ts:152](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L152)
+Defined in: [types/invoice.ts:152](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L152)
 
 Using price COD (collect on delivery)
 
@@ -176,7 +176,7 @@ Using price COD (collect on delivery)
 
 > `optional` **weight**: `number`
 
-Defined in: [types/invoice.ts:156](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L156)
+Defined in: [types/invoice.ts:156](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L156)
 
 Package weight
 
@@ -186,6 +186,6 @@ Package weight
 
 > `optional` **width**: `number`
 
-Defined in: [types/invoice.ts:160](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L160)
+Defined in: [types/invoice.ts:160](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L160)
 
 Package width

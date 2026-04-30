@@ -6,7 +6,7 @@
 
 # Interface: InvoiceResponse
 
-Defined in: [types/invoice.ts:278](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L278)
+Defined in: [types/invoice.ts:278](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L278)
 
 Response for single invoice
 
@@ -16,6 +16,6 @@ Response for single invoice
 
 > **data**: [`Invoice`](Invoice.md)
 
-Defined in: [types/invoice.ts:280](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L280)
+Defined in: [types/invoice.ts:280](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L280)
 
 Invoice data

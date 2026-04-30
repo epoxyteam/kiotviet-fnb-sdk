@@ -6,7 +6,7 @@
 
 # Interface: DeleteWebhookResponse
 
-Defined in: [types/webhook.ts:33](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L33)
+Defined in: [types/webhook.ts:33](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L33)
 
 ## Properties
 
@@ -14,4 +14,4 @@ Defined in: [types/webhook.ts:33](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **message**: `string`
 
-Defined in: [types/webhook.ts:34](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L34)
+Defined in: [types/webhook.ts:34](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L34)

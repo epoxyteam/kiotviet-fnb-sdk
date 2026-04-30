@@ -6,7 +6,7 @@
 
 # Interface: WebSocketEventHandlers
 
-Defined in: [types/webhook.ts:118](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L118)
+Defined in: [types/webhook.ts:126](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L126)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types/webhook.ts:118](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **onClose**: () => `void`
 
-Defined in: [types/webhook.ts:126](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L126)
+Defined in: [types/webhook.ts:134](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L134)
 
 #### Returns
 
@@ -26,7 +26,7 @@ Defined in: [types/webhook.ts:126](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **onCustomerDelete**: (`data`) => `void`
 
-Defined in: [types/webhook.ts:120](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L120)
+Defined in: [types/webhook.ts:128](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L128)
 
 #### Parameters
 
@@ -44,7 +44,7 @@ Defined in: [types/webhook.ts:120](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **onCustomerUpdate**: (`data`) => `void`
 
-Defined in: [types/webhook.ts:119](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L119)
+Defined in: [types/webhook.ts:127](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L127)
 
 #### Parameters
 
@@ -62,7 +62,7 @@ Defined in: [types/webhook.ts:119](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **onError**: (`error`) => `void`
 
-Defined in: [types/webhook.ts:124](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L124)
+Defined in: [types/webhook.ts:132](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L132)
 
 #### Parameters
 
@@ -80,7 +80,7 @@ Defined in: [types/webhook.ts:124](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **onProductDelete**: (`data`) => `void`
 
-Defined in: [types/webhook.ts:122](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L122)
+Defined in: [types/webhook.ts:130](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L130)
 
 #### Parameters
 
@@ -98,7 +98,7 @@ Defined in: [types/webhook.ts:122](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **onProductUpdate**: (`data`) => `void`
 
-Defined in: [types/webhook.ts:121](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L121)
+Defined in: [types/webhook.ts:129](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L129)
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: [types/webhook.ts:121](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **onReconnect**: () => `void`
 
-Defined in: [types/webhook.ts:125](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L125)
+Defined in: [types/webhook.ts:133](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L133)
 
 #### Returns
 
@@ -128,7 +128,7 @@ Defined in: [types/webhook.ts:125](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **onStockUpdate**: (`data`) => `void`
 
-Defined in: [types/webhook.ts:123](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L123)
+Defined in: [types/webhook.ts:131](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L131)
 
 #### Parameters
 

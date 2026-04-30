@@ -6,7 +6,7 @@
 
 # Interface: ProductUnit
 
-Defined in: [types/product.ts:7](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/product.ts#L7)
+Defined in: [types/product.ts:7](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/product.ts#L7)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types/product.ts:7](https://github.com/epoxyteam/kiotviet-fnb-sdk/b
 
 > **basePrice**: `number`
 
-Defined in: [types/product.ts:14](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/product.ts#L14)
+Defined in: [types/product.ts:14](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/product.ts#L14)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types/product.ts:14](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **code**: `string`
 
-Defined in: [types/product.ts:9](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/product.ts#L9)
+Defined in: [types/product.ts:9](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/product.ts#L9)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types/product.ts:9](https://github.com/epoxyteam/kiotviet-fnb-sdk/b
 
 > **conversionValue**: `number`
 
-Defined in: [types/product.ts:13](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/product.ts#L13)
+Defined in: [types/product.ts:13](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/product.ts#L13)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types/product.ts:13](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **fullName**: `string`
 
-Defined in: [types/product.ts:11](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/product.ts#L11)
+Defined in: [types/product.ts:11](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/product.ts#L11)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [types/product.ts:11](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **id**: `number`
 
-Defined in: [types/product.ts:8](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/product.ts#L8)
+Defined in: [types/product.ts:8](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/product.ts#L8)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [types/product.ts:8](https://github.com/epoxyteam/kiotviet-fnb-sdk/b
 
 > **name**: `string`
 
-Defined in: [types/product.ts:10](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/product.ts#L10)
+Defined in: [types/product.ts:10](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/product.ts#L10)
 
 ***
 
@@ -62,4 +62,4 @@ Defined in: [types/product.ts:10](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **unit**: `string`
 
-Defined in: [types/product.ts:12](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/product.ts#L12)
+Defined in: [types/product.ts:12](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/product.ts#L12)

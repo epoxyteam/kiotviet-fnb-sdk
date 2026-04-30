@@ -6,7 +6,7 @@
 
 # Interface: WebSocketMessage\<T\>
 
-Defined in: [types/webhook.ts:106](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L106)
+Defined in: [types/webhook.ts:114](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L114)
 
 ## Type Parameters
 
@@ -20,7 +20,7 @@ Defined in: [types/webhook.ts:106](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > **data**: `T`
 
-Defined in: [types/webhook.ts:108](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L108)
+Defined in: [types/webhook.ts:116](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L116)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [types/webhook.ts:108](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > **timestamp**: `string`
 
-Defined in: [types/webhook.ts:109](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L109)
+Defined in: [types/webhook.ts:117](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L117)
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: [types/webhook.ts:109](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > **type**: [`WebhookEventType`](../type-aliases/WebhookEventType.md)
 
-Defined in: [types/webhook.ts:107](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L107)
+Defined in: [types/webhook.ts:115](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L115)

@@ -6,7 +6,7 @@
 
 # Interface: InvoicePayment
 
-Defined in: [types/invoice.ts:4](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L4)
+Defined in: [types/invoice.ts:4](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L4)
 
 Invoice payment details
 
@@ -16,7 +16,7 @@ Invoice payment details
 
 > `optional` **accountId**: `number`
 
-Defined in: [types/invoice.ts:22](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L22)
+Defined in: [types/invoice.ts:22](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L22)
 
 Account ID
 
@@ -26,7 +26,7 @@ Account ID
 
 > **amount**: `number`
 
-Defined in: [types/invoice.ts:10](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L10)
+Defined in: [types/invoice.ts:10](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L10)
 
 Payment amount
 
@@ -36,7 +36,7 @@ Payment amount
 
 > **bankAccount**: `string`
 
-Defined in: [types/invoice.ts:20](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L20)
+Defined in: [types/invoice.ts:20](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L20)
 
 Bank account
 
@@ -46,7 +46,7 @@ Bank account
 
 > **code**: `string`
 
-Defined in: [types/invoice.ts:8](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L8)
+Defined in: [types/invoice.ts:8](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L8)
 
 Payment code
 
@@ -56,7 +56,7 @@ Payment code
 
 > **id**: `number`
 
-Defined in: [types/invoice.ts:6](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L6)
+Defined in: [types/invoice.ts:6](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L6)
 
 Payment ID
 
@@ -66,7 +66,7 @@ Payment ID
 
 > **method**: `string`
 
-Defined in: [types/invoice.ts:12](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L12)
+Defined in: [types/invoice.ts:12](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L12)
 
 Payment method
 
@@ -76,7 +76,7 @@ Payment method
 
 > `optional` **status**: `number`
 
-Defined in: [types/invoice.ts:14](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L14)
+Defined in: [types/invoice.ts:14](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L14)
 
 Payment status
 
@@ -86,7 +86,7 @@ Payment status
 
 > **statusValue**: `string`
 
-Defined in: [types/invoice.ts:16](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L16)
+Defined in: [types/invoice.ts:16](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L16)
 
 Payment status value (text)
 
@@ -96,6 +96,6 @@ Payment status value (text)
 
 > **transDate**: `string`
 
-Defined in: [types/invoice.ts:18](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L18)
+Defined in: [types/invoice.ts:18](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L18)
 
 Transaction date

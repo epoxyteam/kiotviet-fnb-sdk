@@ -6,7 +6,7 @@
 
 # Interface: RegisterWebhookRequest
 
-Defined in: [types/webhook.ts:20](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L20)
+Defined in: [types/webhook.ts:20](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L20)
 
 ## Properties
 
@@ -14,4 +14,4 @@ Defined in: [types/webhook.ts:20](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **Webhook**: [`WebhookConfig`](WebhookConfig.md)
 
-Defined in: [types/webhook.ts:21](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L21)
+Defined in: [types/webhook.ts:21](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L21)

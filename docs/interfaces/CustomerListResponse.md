@@ -6,7 +6,7 @@
 
 # Interface: CustomerListResponse
 
-Defined in: [types/customer.ts:51](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L51)
+Defined in: [types/customer.ts:51](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L51)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types/customer.ts:51](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > **data**: [`Customer`](Customer.md)[]
 
-Defined in: [types/customer.ts:54](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L54)
+Defined in: [types/customer.ts:54](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L54)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types/customer.ts:54](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > **pageSize**: `number`
 
-Defined in: [types/customer.ts:53](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L53)
+Defined in: [types/customer.ts:53](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L53)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types/customer.ts:53](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **removedIds**: `number`[]
 
-Defined in: [types/customer.ts:55](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L55)
+Defined in: [types/customer.ts:55](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L55)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [types/customer.ts:55](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > **total**: `number`
 
-Defined in: [types/customer.ts:52](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L52)
+Defined in: [types/customer.ts:52](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L52)

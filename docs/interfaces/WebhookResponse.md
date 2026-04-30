@@ -6,7 +6,7 @@
 
 # Interface: WebhookResponse
 
-Defined in: [types/webhook.ts:24](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L24)
+Defined in: [types/webhook.ts:24](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L24)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types/webhook.ts:24](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > `optional` **description**: `string`
 
-Defined in: [types/webhook.ts:29](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L29)
+Defined in: [types/webhook.ts:29](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L29)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types/webhook.ts:29](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **id**: `number`
 
-Defined in: [types/webhook.ts:25](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L25)
+Defined in: [types/webhook.ts:25](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L25)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types/webhook.ts:25](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **isActive**: `boolean`
 
-Defined in: [types/webhook.ts:28](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L28)
+Defined in: [types/webhook.ts:28](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L28)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types/webhook.ts:28](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **retailerId**: `number`
 
-Defined in: [types/webhook.ts:30](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L30)
+Defined in: [types/webhook.ts:30](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L30)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [types/webhook.ts:30](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **type**: [`WebhookEventType`](../type-aliases/WebhookEventType.md)
 
-Defined in: [types/webhook.ts:26](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L26)
+Defined in: [types/webhook.ts:26](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L26)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: [types/webhook.ts:26](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **url**: `string`
 
-Defined in: [types/webhook.ts:27](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L27)
+Defined in: [types/webhook.ts:27](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L27)

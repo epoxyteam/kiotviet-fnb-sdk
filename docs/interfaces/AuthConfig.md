@@ -6,7 +6,7 @@
 
 # Interface: AuthConfig
 
-Defined in: [auth/types.ts:1](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L1)
+Defined in: [auth/types.ts:1](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/auth/types.ts#L1)
 
 ## Extended by
 
@@ -18,7 +18,7 @@ Defined in: [auth/types.ts:1](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob
 
 > **clientId**: `string`
 
-Defined in: [auth/types.ts:2](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L2)
+Defined in: [auth/types.ts:2](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/auth/types.ts#L2)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [auth/types.ts:2](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob
 
 > **clientSecret**: `string`
 
-Defined in: [auth/types.ts:3](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L3)
+Defined in: [auth/types.ts:3](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/auth/types.ts#L3)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [auth/types.ts:3](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob
 
 > **retailer**: `string`
 
-Defined in: [auth/types.ts:4](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L4)
+Defined in: [auth/types.ts:4](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/auth/types.ts#L4)
