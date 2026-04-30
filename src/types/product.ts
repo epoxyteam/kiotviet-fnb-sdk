@@ -114,3 +114,36 @@ export interface ProductListResponse {
 export interface ProductResponse {
   data: Product;
 }
+
+export interface CreateProductRequest {
+  /** Product code */
+  code: string;
+  /** Product name */
+  name: string;
+  /** Category ID */
+  categoryId?: number;
+  /** Base price */
+  basePrice?: number;
+  /** Product unit */
+  unit?: string;
+  /** Allow sale */
+  allowsSale?: boolean;
+  /** Is topping */
+  isTopping?: boolean;
+  /** Description */
+  description?: string;
+  /** Order template */
+  orderTemplate?: string;
+  /** Weight */
+  weight?: number;
+}
+
+export interface UpdateProductRequest extends Partial<CreateProductRequest> {
+  /** Product ID */
+  id: number;
+}
+
+export interface DeleteProductResponse {
+  /** Deletion message */
+  message: string;
+}

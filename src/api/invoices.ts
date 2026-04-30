@@ -3,7 +3,8 @@ import {
   Invoice,
   InvoiceListParams,
   InvoiceListResponse,
-  InvoiceResponse
+  InvoiceResponse,
+  CreateInvoiceRequest
 } from '../types/invoice';
 
 export class InvoicesApi {
@@ -41,6 +42,16 @@ export class InvoicesApi {
    */
   async getByCode(code: string): Promise<Invoice> {
     const { data } = await this.client.get<InvoiceResponse>(`${this.baseUrl}/code/${code}`);
+    return data.data;
+  }
+
+  /**
+   * Create a new invoice
+   * @param invoice The invoice details to create
+   * @returns Promise with the created invoice
+   */
+  async create(invoice: CreateInvoiceRequest): Promise<Invoice> {
+    const { data } = await this.client.post<InvoiceResponse>(this.baseUrl, invoice);
     return data.data;
   }
 

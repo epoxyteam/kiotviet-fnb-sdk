@@ -7,6 +7,10 @@ import { CustomersApi } from './api/customers';
 import { WebhooksApi } from './api/webhooks';
 import { BranchesApi } from './api/branches';
 import { InvoicesApi } from './api/invoices';
+import { UsersApi } from './api/users';
+import { SurchargesApi } from './api/surcharges';
+import { TablesApi } from './api/tables';
+import { KitchenApi } from './api/kitchen';
 import { WebSocketConfig, WebSocketEventHandlers } from './types/webhook';
 
 export interface KiotVietClientConfig extends AuthConfig {
@@ -25,6 +29,10 @@ export class KiotVietClient {
   public readonly webhooks: WebhooksApi;
   public readonly branches: BranchesApi;
   public readonly invoices: InvoicesApi;
+  public readonly users: UsersApi;
+  public readonly surcharges: SurchargesApi;
+  public readonly tables: TablesApi;
+  public readonly kitchen: KitchenApi;
 
   constructor(config: KiotVietClientConfig) {
     const tokenManager = createTokenManager(config, config.storageType || 'file');
@@ -45,6 +53,10 @@ export class KiotVietClient {
     this.webhooks = new WebhooksApi(this.httpClient, config.websocket);
     this.branches = new BranchesApi(this.httpClient);
     this.invoices = new InvoicesApi(this.httpClient);
+    this.users = new UsersApi(this.httpClient);
+    this.surcharges = new SurchargesApi(this.httpClient);
+    this.tables = new TablesApi(this.httpClient);
+    this.kitchen = new KitchenApi(this.httpClient);
   }
 
   /**
@@ -72,6 +84,10 @@ export * from './types/customer';
 export * from './types/webhook';
 export * from './types/branch';
 export * from './types/invoice';
+export * from './types/user';
+export * from './types/surcharge';
+export * from './types/table';
+export * from './types/kitchen';
 export * from './auth/types';
 
 // Re-export storage types
