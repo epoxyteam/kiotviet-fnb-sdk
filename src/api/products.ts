@@ -1,5 +1,13 @@
 import { HttpClient } from '../utils/http-client';
-import { Product, ProductListParams, ProductListResponse, ProductResponse } from '../types/product';
+import {
+  Product,
+  ProductListParams,
+  ProductListResponse,
+  ProductResponse,
+  CreateProductRequest,
+  UpdateProductRequest,
+  DeleteProductResponse
+} from '../types/product';
 
 export class ProductsApi {
   private client: HttpClient;
@@ -37,6 +45,37 @@ export class ProductsApi {
   async getByCode(code: string): Promise<Product> {
     const { data } = await this.client.get<ProductResponse>(`${this.baseUrl}/code/${code}`);
     return data.data;
+  }
+
+  /**
+   * Create a new product
+   * @param product The product details to create
+   * @returns Promise with the created product
+   */
+  async create(product: CreateProductRequest): Promise<Product> {
+    const { data } = await this.client.post<ProductResponse>(this.baseUrl, product);
+    return data.data;
+  }
+
+  /**
+   * Update an existing product
+   * @param id The ID of the product to update
+   * @param product The product details to update
+   * @returns Promise with the updated product
+   */
+  async update(id: number, product: UpdateProductRequest): Promise<Product> {
+    const { data } = await this.client.put<ProductResponse>(`${this.baseUrl}/${id}`, product);
+    return data.data;
+  }
+
+  /**
+   * Delete a product
+   * @param id The ID of the product to delete
+   * @returns Promise with the deletion message
+   */
+  async delete(id: number): Promise<DeleteProductResponse> {
+    const { data } = await this.client.delete<DeleteProductResponse>(`${this.baseUrl}/${id}`);
+    return data;
   }
 
   /**

@@ -6,7 +6,7 @@
 
 # Interface: OrderPartnerDelivery
 
-Defined in: [types/order.ts:9](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/order.ts#L9)
+Defined in: [types/order.ts:9](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/order.ts#L9)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types/order.ts:9](https://github.com/epoxyteam/kiotviet-fnb-sdk/blo
 
 > **code**: `string`
 
-Defined in: [types/order.ts:10](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/order.ts#L10)
+Defined in: [types/order.ts:10](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/order.ts#L10)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [types/order.ts:10](https://github.com/epoxyteam/kiotviet-fnb-sdk/bl
 
 > **name**: `string`
 
-Defined in: [types/order.ts:11](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/order.ts#L11)
+Defined in: [types/order.ts:11](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/order.ts#L11)

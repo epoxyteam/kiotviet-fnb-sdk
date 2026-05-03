@@ -6,7 +6,7 @@
 
 # Interface: Customer
 
-Defined in: [types/customer.ts:1](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L1)
+Defined in: [types/customer.ts:1](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L1)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types/customer.ts:1](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > `optional` **address**: `string`
 
-Defined in: [types/customer.ts:8](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L8)
+Defined in: [types/customer.ts:8](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L8)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types/customer.ts:8](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > `optional` **birthDate**: `string`
 
-Defined in: [types/customer.ts:6](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L6)
+Defined in: [types/customer.ts:6](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L6)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types/customer.ts:6](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **code**: `string`
 
-Defined in: [types/customer.ts:3](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L3)
+Defined in: [types/customer.ts:3](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L3)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types/customer.ts:3](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > `optional` **comment**: `string`
 
-Defined in: [types/customer.ts:12](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L12)
+Defined in: [types/customer.ts:12](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L12)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [types/customer.ts:12](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > **contactNumber**: `string`
 
-Defined in: [types/customer.ts:7](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L7)
+Defined in: [types/customer.ts:7](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L7)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [types/customer.ts:7](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **createdDate**: `string`
 
-Defined in: [types/customer.ts:20](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L20)
+Defined in: [types/customer.ts:20](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L20)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [types/customer.ts:20](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **debt**: `number`
 
-Defined in: [types/customer.ts:15](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L15)
+Defined in: [types/customer.ts:15](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L15)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [types/customer.ts:15](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **email**: `string`
 
-Defined in: [types/customer.ts:10](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L10)
+Defined in: [types/customer.ts:10](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L10)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [types/customer.ts:10](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **gender**: `boolean`
 
-Defined in: [types/customer.ts:5](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L5)
+Defined in: [types/customer.ts:5](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L5)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [types/customer.ts:5](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **id**: `number`
 
-Defined in: [types/customer.ts:2](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L2)
+Defined in: [types/customer.ts:2](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L2)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [types/customer.ts:2](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > `optional` **locationName**: `string`
 
-Defined in: [types/customer.ts:9](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L9)
+Defined in: [types/customer.ts:9](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L9)
 
 ***
 
@@ -102,7 +102,7 @@ Defined in: [types/customer.ts:9](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > `optional` **modifiedDate**: `string`
 
-Defined in: [types/customer.ts:19](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L19)
+Defined in: [types/customer.ts:19](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L19)
 
 ***
 
@@ -110,7 +110,7 @@ Defined in: [types/customer.ts:19](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > **name**: `string`
 
-Defined in: [types/customer.ts:4](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L4)
+Defined in: [types/customer.ts:4](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L4)
 
 ***
 
@@ -118,7 +118,7 @@ Defined in: [types/customer.ts:4](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > `optional` **organization**: `string`
 
-Defined in: [types/customer.ts:11](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L11)
+Defined in: [types/customer.ts:11](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L11)
 
 ***
 
@@ -126,7 +126,7 @@ Defined in: [types/customer.ts:11](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > **retailerId**: `number`
 
-Defined in: [types/customer.ts:14](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L14)
+Defined in: [types/customer.ts:14](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L14)
 
 ***
 
@@ -134,7 +134,7 @@ Defined in: [types/customer.ts:14](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **taxCode**: `string`
 
-Defined in: [types/customer.ts:13](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L13)
+Defined in: [types/customer.ts:13](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L13)
 
 ***
 
@@ -142,7 +142,7 @@ Defined in: [types/customer.ts:13](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **totalInvoiced**: `number`
 
-Defined in: [types/customer.ts:16](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L16)
+Defined in: [types/customer.ts:16](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L16)
 
 ***
 
@@ -150,7 +150,7 @@ Defined in: [types/customer.ts:16](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **totalPoint**: `number`
 
-Defined in: [types/customer.ts:17](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L17)
+Defined in: [types/customer.ts:17](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L17)
 
 ***
 
@@ -158,4 +158,4 @@ Defined in: [types/customer.ts:17](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **totalRevenue**: `number`
 
-Defined in: [types/customer.ts:18](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/customer.ts#L18)
+Defined in: [types/customer.ts:18](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/customer.ts#L18)

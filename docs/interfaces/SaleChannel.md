@@ -6,7 +6,7 @@
 
 # Interface: SaleChannel
 
-Defined in: [types/invoice.ts:92](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L92)
+Defined in: [types/invoice.ts:92](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L92)
 
 Sale channel information
 
@@ -16,7 +16,7 @@ Sale channel information
 
 > **CreatedBy**: `number`
 
-Defined in: [types/invoice.ts:102](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L102)
+Defined in: [types/invoice.ts:102](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L102)
 
 Created by user ID
 
@@ -26,7 +26,7 @@ Created by user ID
 
 > **CreatedDate**: `string`
 
-Defined in: [types/invoice.ts:104](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L104)
+Defined in: [types/invoice.ts:104](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L104)
 
 Creation date
 
@@ -36,7 +36,7 @@ Creation date
 
 > **Id**: `number`
 
-Defined in: [types/invoice.ts:106](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L106)
+Defined in: [types/invoice.ts:106](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L106)
 
 Sale channel ID
 
@@ -46,7 +46,7 @@ Sale channel ID
 
 > **IsActivate**: `boolean`
 
-Defined in: [types/invoice.ts:100](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L100)
+Defined in: [types/invoice.ts:100](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L100)
 
 Is activate
 
@@ -56,7 +56,7 @@ Is activate
 
 > **IsNotDelete**: `boolean`
 
-Defined in: [types/invoice.ts:94](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L94)
+Defined in: [types/invoice.ts:94](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L94)
 
 Is not deleted
 
@@ -66,7 +66,7 @@ Is not deleted
 
 > **Name**: `string`
 
-Defined in: [types/invoice.ts:108](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L108)
+Defined in: [types/invoice.ts:108](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L108)
 
 Sale channel name
 
@@ -76,7 +76,7 @@ Sale channel name
 
 > **Position**: `number`
 
-Defined in: [types/invoice.ts:98](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L98)
+Defined in: [types/invoice.ts:98](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L98)
 
 Position
 
@@ -86,6 +86,6 @@ Position
 
 > **RetailerId**: `number`
 
-Defined in: [types/invoice.ts:96](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L96)
+Defined in: [types/invoice.ts:96](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L96)
 
 Retailer ID

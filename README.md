@@ -55,6 +55,19 @@ const product = await client.products.get(123);
 // Get by code
 const product = await client.products.getByCode('PRD001');
 
+// Create product
+const newProduct = await client.products.create({
+  code: 'PRD002',
+  name: 'New Product',
+  basePrice: 50000
+});
+
+// Update product
+const updated = await client.products.update(123, { basePrice: 60000 });
+
+// Delete product
+await client.products.delete(123);
+
 // Get by category
 const products = await client.products.getByCategory(456);
 
@@ -65,8 +78,20 @@ const products = await client.products.getByMasterUnit(789);
 ### Orders
 
 ```typescript
+// List orders
+const orders = await client.orders.list({
+  pageSize: 20,
+  branchIds: [1, 2],
+  status: [1, 2],
+  fromPurchaseDate: '2024-01-01',
+  toPurchaseDate: '2024-12-31'
+});
+
+// Get order by ID
+const order = await client.orders.get(123);
+
 // Create order
-const orderId = await client.orders.create({
+const newOrder = await client.orders.create({
   branchId: 1,
   customerId: 123,
   orderDetails: [{
@@ -87,8 +112,11 @@ const orderId = await client.orders.create({
   }
 });
 
+// Update order
+const updatedOrder = await client.orders.update(123, { status: 2 });
+
 // Get order by UUID
-const order = await client.orders.getByUuid(orderId);
+const order = await client.orders.getByUuid('some-uuid');
 ```
 
 ### Customers
@@ -169,6 +197,21 @@ const invoice = await client.invoices.get(123);
 // Get by code
 const invoice = await client.invoices.getByCode('INV001');
 
+// Create invoice
+const newInvoice = await client.invoices.create({
+  branchId: 1,
+  customerId: 123,
+  invoiceDetails: [{
+    productId: 456,
+    quantity: 1,
+    price: 100000
+  }],
+  payments: [{
+    method: 'Cash',
+    amount: 100000
+  }]
+});
+
 // Get by branches
 const branchInvoices = await client.invoices.getByBranches([1, 2]);
 
@@ -194,12 +237,18 @@ const dateInvoices = await client.invoices.getByDateRange(
 ### Webhooks & Real-time Updates
 
 ```typescript
+// List registered webhooks
+const webhooks = await client.webhooks.list();
+
 // Register webhook endpoint
 await client.webhooks.register({
   Type: 'product.update',
   Url: 'https://your-webhook.com/endpoint',
   IsActive: true
 });
+
+// Unregister webhook
+await client.webhooks.unregister(123);
 
 // Connect WebSocket for real-time updates
 await client.connectWebSocket({
@@ -219,6 +268,54 @@ await client.connectWebSocket({
 
 // Disconnect WebSocket
 client.disconnectWebSocket();
+```
+
+### Users
+
+```typescript
+// List users
+const users = await client.users.list({ pageSize: 20 });
+
+// Get user by ID
+const user = await client.users.get(123);
+```
+
+### Surcharges
+
+```typescript
+// List surcharges
+const surcharges = await client.surcharges.list({ pageSize: 20 });
+
+// Get surcharge by ID
+const surcharge = await client.surcharges.get(123);
+```
+
+### Tables (FnB-specific)
+
+```typescript
+// List tables
+const tables = await client.tables.list({
+  pageSize: 20,
+  branchId: 1,
+  zoneId: 2
+});
+
+// Get table by ID
+const table = await client.tables.get(123);
+```
+
+### Kitchen (FnB-specific)
+
+```typescript
+// List kitchen tickets
+const tickets = await client.kitchen.list({
+  pageSize: 20,
+  branchId: 1,
+  status: [1, 2]   // 1: pending, 2: preparing, 3: done, 4: cancelled
+});
+
+// Get kitchen ticket by ID
+const ticket = await client.kitchen.get(123);
 ```
 
 ## Configuration

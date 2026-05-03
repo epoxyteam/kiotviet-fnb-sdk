@@ -6,7 +6,7 @@
 
 # Interface: WebhookConfig
 
-Defined in: [types/webhook.ts:8](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L8)
+Defined in: [types/webhook.ts:8](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L8)
 
 ## Extended by
 
@@ -18,7 +18,7 @@ Defined in: [types/webhook.ts:8](https://github.com/epoxyteam/kiotviet-fnb-sdk/b
 
 > `optional` **Description**: `string`
 
-Defined in: [types/webhook.ts:12](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L12)
+Defined in: [types/webhook.ts:12](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L12)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [types/webhook.ts:12](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **IsActive**: `boolean`
 
-Defined in: [types/webhook.ts:11](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L11)
+Defined in: [types/webhook.ts:11](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L11)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [types/webhook.ts:11](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **Type**: [`WebhookEventType`](../type-aliases/WebhookEventType.md)
 
-Defined in: [types/webhook.ts:9](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L9)
+Defined in: [types/webhook.ts:9](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L9)
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: [types/webhook.ts:9](https://github.com/epoxyteam/kiotviet-fnb-sdk/b
 
 > **Url**: `string`
 
-Defined in: [types/webhook.ts:10](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L10)
+Defined in: [types/webhook.ts:10](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L10)

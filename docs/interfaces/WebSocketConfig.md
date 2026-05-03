@@ -6,7 +6,7 @@
 
 # Interface: WebSocketConfig
 
-Defined in: [types/webhook.ts:112](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L112)
+Defined in: [types/webhook.ts:120](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L120)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types/webhook.ts:112](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **autoReconnect**: `boolean`
 
-Defined in: [types/webhook.ts:113](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L113)
+Defined in: [types/webhook.ts:121](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L121)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types/webhook.ts:113](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **maxReconnectAttempts**: `number`
 
-Defined in: [types/webhook.ts:115](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L115)
+Defined in: [types/webhook.ts:123](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L123)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [types/webhook.ts:115](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > `optional` **reconnectInterval**: `number`
 
-Defined in: [types/webhook.ts:114](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L114)
+Defined in: [types/webhook.ts:122](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L122)

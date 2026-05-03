@@ -6,7 +6,7 @@
 
 # Interface: TokenStorage
 
-Defined in: [auth/types.ts:23](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L23)
+Defined in: [auth/types.ts:23](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/auth/types.ts#L23)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [auth/types.ts:23](https://github.com/epoxyteam/kiotviet-fnb-sdk/blo
 
 > **getToken**(): `Promise`\<`null` \| [`StoredToken`](StoredToken.md)\>
 
-Defined in: [auth/types.ts:25](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L25)
+Defined in: [auth/types.ts:25](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/auth/types.ts#L25)
 
 #### Returns
 
@@ -26,7 +26,7 @@ Defined in: [auth/types.ts:25](https://github.com/epoxyteam/kiotviet-fnb-sdk/blo
 
 > **removeToken**(): `Promise`\<`void`\>
 
-Defined in: [auth/types.ts:26](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L26)
+Defined in: [auth/types.ts:26](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/auth/types.ts#L26)
 
 #### Returns
 
@@ -38,7 +38,7 @@ Defined in: [auth/types.ts:26](https://github.com/epoxyteam/kiotviet-fnb-sdk/blo
 
 > **saveToken**(`token`): `Promise`\<`void`\>
 
-Defined in: [auth/types.ts:24](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/auth/types.ts#L24)
+Defined in: [auth/types.ts:24](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/auth/types.ts#L24)
 
 #### Parameters
 

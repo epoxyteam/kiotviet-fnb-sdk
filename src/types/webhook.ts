@@ -34,6 +34,14 @@ export interface DeleteWebhookResponse {
   message: string;
 }
 
+/** Response for webhook list */
+export interface WebhookListResponse {
+  /** Total number of webhooks */
+  total: number;
+  /** Array of webhooks */
+  data: WebhookResponse[];
+}
+
 // Webhook event payloads
 export interface WebhookEvent<T = any> {
   Id: string;

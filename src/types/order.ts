@@ -31,22 +31,48 @@ export interface CreateOrderRequest {
   deliveryDetail?: DeliveryDetail;
 }
 
-export interface OrderResponse {
-  id: number;
-  code: string;
-  purchaseDate: string;
-  retailerId: number;
-  branchId: number;
-  soldById?: number;
+export interface UpdateOrderRequest {
+  branchId?: number;
   customerId?: number;
-  customerName?: string;
-  status: number;
-  statusValue: string;
-  total: number;
-  totalPayment: number;
-  totalQuantity: number;
+  orderDetails?: OrderDetail[];
+  deliveryDetail?: DeliveryDetail;
+  status?: number;
   historyNote?: string;
+}
+
+/** Full Order entity returned by list/get endpoints */
+export interface Order {
+  /** Order ID */
+  id: number;
+  /** Order code */
+  code: string;
+  /** Purchase date */
+  purchaseDate: string;
+  /** Retailer ID */
+  retailerId: number;
+  /** Branch ID */
+  branchId: number;
+  /** Sold by user ID */
+  soldById?: number;
+  /** Customer ID */
+  customerId?: number;
+  /** Customer name */
+  customerName?: string;
+  /** Order status */
+  status: number;
+  /** Order status value (text) */
+  statusValue: string;
+  /** Total amount */
+  total: number;
+  /** Total payment amount */
+  totalPayment: number;
+  /** Total quantity */
+  totalQuantity: number;
+  /** History note */
+  historyNote?: string;
+  /** Dining option */
   dinningOption?: number;
+  /** Order details (line items) */
   orderDetails: Array<{
     uuid: string;
     productId: number;
@@ -57,6 +83,7 @@ export interface OrderResponse {
     timeStartCounter?: string;
     timeEndCounter?: string;
   }>;
+  /** Delivery information */
   orderDelivery?: {
     price: number;
     receiver: string;
@@ -70,4 +97,47 @@ export interface OrderResponse {
     status: number;
     partnerDelivery?: OrderPartnerDelivery;
   };
+}
+
+/** @deprecated Use Order instead */
+export type OrderResponse = Order;
+
+/** Query parameters for listing orders */
+export interface OrderListParams {
+  /** Filter by branch IDs */
+  branchIds?: number[];
+  /** Filter by customer IDs */
+  customerIds?: number[];
+  /** Filter by order status */
+  status?: number[];
+  /** Filter by last modified date */
+  lastModifiedFrom?: string;
+  /** From purchase date */
+  fromPurchaseDate?: string;
+  /** To purchase date */
+  toPurchaseDate?: string;
+  /** Number of items per page (default 20, max 100) */
+  pageSize?: number;
+  /** Current item to start from (default 0) */
+  currentItem?: number;
+  /** Field to order by */
+  orderBy?: string;
+  /** Order direction: 'Asc' (default) or 'Desc' */
+  orderDirection?: 'Asc' | 'Desc';
+  /** Include removed IDs */
+  includeRemoveIds?: boolean;
+}
+
+/** Response for order list */
+export interface OrderListResponse {
+  /** Total number of orders */
+  total: number;
+  /** Page size */
+  pageSize: number;
+  /** Array of orders */
+  data: Order[];
+  /** IDs of removed orders */
+  removedIds?: number[];
+  /** Timestamp of the response */
+  timestamp?: string;
 }

@@ -6,7 +6,7 @@
 
 # Class: KiotVietClient
 
-Defined in: [index.ts:17](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L17)
+Defined in: [index.ts:21](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L21)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [index.ts:17](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676
 
 > **new KiotVietClient**(`config`): `KiotVietClient`
 
-Defined in: [index.ts:29](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L29)
+Defined in: [index.ts:37](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L37)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: [index.ts:29](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676
 
 > `readonly` **branches**: `BranchesApi`
 
-Defined in: [index.ts:26](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L26)
+Defined in: [index.ts:30](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L30)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [index.ts:26](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676
 
 > `readonly` **categories**: `CategoriesApi`
 
-Defined in: [index.ts:21](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L21)
+Defined in: [index.ts:25](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L25)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [index.ts:21](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676
 
 > `readonly` **customers**: `CustomersApi`
 
-Defined in: [index.ts:24](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L24)
+Defined in: [index.ts:28](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L28)
 
 ***
 
@@ -56,7 +56,15 @@ Defined in: [index.ts:24](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676
 
 > `readonly` **invoices**: `InvoicesApi`
 
-Defined in: [index.ts:27](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L27)
+Defined in: [index.ts:31](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L31)
+
+***
+
+### kitchen
+
+> `readonly` **kitchen**: `KitchenApi`
+
+Defined in: [index.ts:35](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L35)
 
 ***
 
@@ -64,7 +72,7 @@ Defined in: [index.ts:27](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676
 
 > `readonly` **orders**: `OrdersApi`
 
-Defined in: [index.ts:23](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L23)
+Defined in: [index.ts:27](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L27)
 
 ***
 
@@ -72,7 +80,31 @@ Defined in: [index.ts:23](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676
 
 > `readonly` **products**: `ProductsApi`
 
-Defined in: [index.ts:22](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L22)
+Defined in: [index.ts:26](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L26)
+
+***
+
+### surcharges
+
+> `readonly` **surcharges**: `SurchargesApi`
+
+Defined in: [index.ts:33](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L33)
+
+***
+
+### tables
+
+> `readonly` **tables**: `TablesApi`
+
+Defined in: [index.ts:34](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L34)
+
+***
+
+### users
+
+> `readonly` **users**: `UsersApi`
+
+Defined in: [index.ts:32](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L32)
 
 ***
 
@@ -80,7 +112,7 @@ Defined in: [index.ts:22](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676
 
 > `readonly` **webhooks**: `WebhooksApi`
 
-Defined in: [index.ts:25](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L25)
+Defined in: [index.ts:29](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L29)
 
 ## Methods
 
@@ -88,7 +120,7 @@ Defined in: [index.ts:25](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676
 
 > **connectWebSocket**(`handlers`): `Promise`\<`void`\>
 
-Defined in: [index.ts:54](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L54)
+Defined in: [index.ts:66](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L66)
 
 Connect to the WebSocket server for real-time webhook events
 
@@ -110,7 +142,7 @@ Event handlers for different webhook events
 
 > **disconnectWebSocket**(): `void`
 
-Defined in: [index.ts:62](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/index.ts#L62)
+Defined in: [index.ts:74](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/index.ts#L74)
 
 Disconnect from the WebSocket server
 

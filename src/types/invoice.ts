@@ -279,3 +279,51 @@ export interface InvoiceResponse {
   /** Invoice data */
   data: Invoice;
 }
+
+/** Invoice detail for creation */
+export interface CreateInvoiceDetailRequest {
+  /** Product ID */
+  productId: number;
+  /** Quantity */
+  quantity: number;
+  /** Price */
+  price: number;
+  /** Discount ratio (percentage) */
+  discountRatio?: number;
+  /** Discount amount */
+  discount?: number;
+  /** Note */
+  note?: string;
+}
+
+/** Invoice payment for creation */
+export interface CreateInvoicePaymentRequest {
+  /** Payment method */
+  method: string;
+  /** Payment amount */
+  amount: number;
+  /** Account ID */
+  accountId?: number;
+}
+
+/** Request to create a new invoice */
+export interface CreateInvoiceRequest {
+  /** Branch ID */
+  branchId: number;
+  /** Customer ID */
+  customerId?: number;
+  /** Customer code */
+  customerCode?: string;
+  /** Invoice details (line items) */
+  invoiceDetails: CreateInvoiceDetailRequest[];
+  /** Payments */
+  payments?: CreateInvoicePaymentRequest[];
+  /** Description/note */
+  description?: string;
+  /** Order surcharges */
+  orderSurcharges?: Array<{
+    surchargeId: number;
+    price?: number;
+    surValue?: number;
+  }>;
+}

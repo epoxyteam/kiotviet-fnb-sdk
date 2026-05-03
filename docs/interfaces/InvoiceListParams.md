@@ -6,7 +6,7 @@
 
 # Interface: InvoiceListParams
 
-Defined in: [types/invoice.ts:226](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L226)
+Defined in: [types/invoice.ts:226](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L226)
 
 Query parameters for listing invoices
 
@@ -16,7 +16,7 @@ Query parameters for listing invoices
 
 > `optional` **branchIds**: `number`[]
 
-Defined in: [types/invoice.ts:228](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L228)
+Defined in: [types/invoice.ts:228](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L228)
 
 Filter by branch IDs
 
@@ -26,7 +26,7 @@ Filter by branch IDs
 
 > `optional` **createdDate**: `string`
 
-Defined in: [types/invoice.ts:254](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L254)
+Defined in: [types/invoice.ts:254](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L254)
 
 Filter by creation date
 
@@ -36,7 +36,7 @@ Filter by creation date
 
 > `optional` **currentItem**: `number`
 
-Defined in: [types/invoice.ts:246](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L246)
+Defined in: [types/invoice.ts:246](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L246)
 
 Current item to start from (default 0)
 
@@ -46,7 +46,7 @@ Current item to start from (default 0)
 
 > `optional` **customerCode**: `string`
 
-Defined in: [types/invoice.ts:232](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L232)
+Defined in: [types/invoice.ts:232](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L232)
 
 Filter by customer code
 
@@ -56,7 +56,7 @@ Filter by customer code
 
 > `optional` **customerIds**: `number`[]
 
-Defined in: [types/invoice.ts:230](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L230)
+Defined in: [types/invoice.ts:230](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L230)
 
 Filter by customer IDs
 
@@ -66,7 +66,7 @@ Filter by customer IDs
 
 > `optional` **fromPurchaseDate**: `string`
 
-Defined in: [types/invoice.ts:256](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L256)
+Defined in: [types/invoice.ts:256](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L256)
 
 From purchase date
 
@@ -76,7 +76,7 @@ From purchase date
 
 > `optional` **includeInvoiceDelivery**: `boolean`
 
-Defined in: [types/invoice.ts:238](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L238)
+Defined in: [types/invoice.ts:238](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L238)
 
 Include invoice delivery information
 
@@ -86,7 +86,7 @@ Include invoice delivery information
 
 > `optional` **includePayment**: `boolean`
 
-Defined in: [types/invoice.ts:236](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L236)
+Defined in: [types/invoice.ts:236](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L236)
 
 Include payment information
 
@@ -96,7 +96,7 @@ Include payment information
 
 > `optional` **lastModifiedFrom**: `string`
 
-Defined in: [types/invoice.ts:240](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L240)
+Defined in: [types/invoice.ts:240](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L240)
 
 Filter by last modified date
 
@@ -106,7 +106,7 @@ Filter by last modified date
 
 > `optional` **orderBy**: `string`
 
-Defined in: [types/invoice.ts:248](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L248)
+Defined in: [types/invoice.ts:248](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L248)
 
 Field to order by
 
@@ -116,7 +116,7 @@ Field to order by
 
 > `optional` **orderDirection**: `"Asc"` \| `"Desc"`
 
-Defined in: [types/invoice.ts:250](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L250)
+Defined in: [types/invoice.ts:250](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L250)
 
 Order direction: 'Asc' (default) or 'Desc'
 
@@ -126,7 +126,7 @@ Order direction: 'Asc' (default) or 'Desc'
 
 > `optional` **orderId**: `number`
 
-Defined in: [types/invoice.ts:252](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L252)
+Defined in: [types/invoice.ts:252](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L252)
 
 Filter by order ID
 
@@ -136,7 +136,7 @@ Filter by order ID
 
 > `optional` **pageSize**: `number`
 
-Defined in: [types/invoice.ts:244](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L244)
+Defined in: [types/invoice.ts:244](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L244)
 
 Number of items per page (default 20, max 100)
 
@@ -146,7 +146,7 @@ Number of items per page (default 20, max 100)
 
 > `optional` **SaleChannel**: `boolean`
 
-Defined in: [types/invoice.ts:260](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L260)
+Defined in: [types/invoice.ts:260](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L260)
 
 Include sale channel information (pass 'SaleChannel=true' to include)
 
@@ -156,7 +156,7 @@ Include sale channel information (pass 'SaleChannel=true' to include)
 
 > `optional` **status**: `number`[]
 
-Defined in: [types/invoice.ts:234](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L234)
+Defined in: [types/invoice.ts:234](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L234)
 
 Filter by invoice status
 
@@ -166,7 +166,7 @@ Filter by invoice status
 
 > `optional` **toDate**: `string`
 
-Defined in: [types/invoice.ts:242](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L242)
+Defined in: [types/invoice.ts:242](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L242)
 
 Filter up to this date
 
@@ -176,6 +176,6 @@ Filter up to this date
 
 > `optional` **toPurchaseDate**: `string`
 
-Defined in: [types/invoice.ts:258](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L258)
+Defined in: [types/invoice.ts:258](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L258)
 
 To purchase date

@@ -15,7 +15,7 @@ export interface CategoryListParams {
   currentItem?: number;
   orderBy?: string;
   orderDirection?: 'Asc' | 'Desc';
-  hierachicalData?: boolean;
+  hierarchicalData?: boolean;
 }
 
 export interface CategoryListResponse {

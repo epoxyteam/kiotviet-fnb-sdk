@@ -6,7 +6,7 @@
 
 # Interface: ProductResponse
 
-Defined in: [types/product.ts:114](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/product.ts#L114)
+Defined in: [types/product.ts:114](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/product.ts#L114)
 
 ## Properties
 
@@ -14,4 +14,4 @@ Defined in: [types/product.ts:114](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > **data**: [`Product`](Product.md)
 
-Defined in: [types/product.ts:115](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/product.ts#L115)
+Defined in: [types/product.ts:115](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/product.ts#L115)

@@ -6,7 +6,7 @@
 
 # Interface: ProductDeleteEvent
 
-Defined in: [types/webhook.ts:89](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L89)
+Defined in: [types/webhook.ts:97](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L97)
 
 ## Properties
 
@@ -14,4 +14,4 @@ Defined in: [types/webhook.ts:89](https://github.com/epoxyteam/kiotviet-fnb-sdk/
 
 > **RemoveId**: `number`[]
 
-Defined in: [types/webhook.ts:90](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/webhook.ts#L90)
+Defined in: [types/webhook.ts:98](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/webhook.ts#L98)

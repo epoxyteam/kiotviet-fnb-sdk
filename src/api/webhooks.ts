@@ -3,6 +3,7 @@ import { HttpClient } from '../utils/http-client';
 import {
   WebhookConfig,
   WebhookResponse,
+  WebhookListResponse,
   RegisterWebhookRequest,
   DeleteWebhookResponse,
   WebSocketConfig,
@@ -31,6 +32,15 @@ export class WebhooksApi {
   constructor(client: HttpClient, wsConfig?: Partial<WebSocketConfig>) {
     this.client = client;
     this.config = { ...this.config, ...wsConfig };
+  }
+
+  /**
+   * Get a list of registered webhooks
+   * @returns Promise with the list of webhooks
+   */
+  async list(): Promise<WebhookListResponse> {
+    const { data } = await this.client.get<WebhookListResponse>(this.baseUrl);
+    return data;
   }
 
   /**

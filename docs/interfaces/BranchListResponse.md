@@ -6,7 +6,7 @@
 
 # Interface: BranchListResponse
 
-Defined in: [types/branch.ts:44](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/branch.ts#L44)
+Defined in: [types/branch.ts:44](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/branch.ts#L44)
 
 Response for branch list
 
@@ -16,7 +16,7 @@ Response for branch list
 
 > **data**: [`Branch`](Branch.md)[]
 
-Defined in: [types/branch.ts:50](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/branch.ts#L50)
+Defined in: [types/branch.ts:50](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/branch.ts#L50)
 
 Array of branches
 
@@ -26,7 +26,7 @@ Array of branches
 
 > **pageSize**: `number`
 
-Defined in: [types/branch.ts:48](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/branch.ts#L48)
+Defined in: [types/branch.ts:48](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/branch.ts#L48)
 
 Page size
 
@@ -36,7 +36,7 @@ Page size
 
 > **timestamp**: `string`
 
-Defined in: [types/branch.ts:52](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/branch.ts#L52)
+Defined in: [types/branch.ts:52](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/branch.ts#L52)
 
 Timestamp of the response
 
@@ -46,6 +46,6 @@ Timestamp of the response
 
 > **total**: `number`
 
-Defined in: [types/branch.ts:46](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/branch.ts#L46)
+Defined in: [types/branch.ts:46](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/branch.ts#L46)
 
 Total number of branches

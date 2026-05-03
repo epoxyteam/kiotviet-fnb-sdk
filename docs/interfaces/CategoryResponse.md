@@ -6,7 +6,7 @@
 
 # Interface: CategoryResponse
 
-Defined in: [types/category.ts:29](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/category.ts#L29)
+Defined in: [types/category.ts:29](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/category.ts#L29)
 
 ## Properties
 
@@ -14,4 +14,4 @@ Defined in: [types/category.ts:29](https://github.com/epoxyteam/kiotviet-fnb-sdk
 
 > **data**: [`Category`](Category.md)
 
-Defined in: [types/category.ts:30](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/category.ts#L30)
+Defined in: [types/category.ts:30](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/category.ts#L30)

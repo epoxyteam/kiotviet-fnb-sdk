@@ -6,7 +6,7 @@
 
 # Interface: InvoiceDetail
 
-Defined in: [types/invoice.ts:66](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L66)
+Defined in: [types/invoice.ts:66](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L66)
 
 Invoice detail (line item)
 
@@ -16,7 +16,7 @@ Invoice detail (line item)
 
 > `optional` **discount**: `number`
 
-Defined in: [types/invoice.ts:80](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L80)
+Defined in: [types/invoice.ts:80](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L80)
 
 Discount amount
 
@@ -26,7 +26,7 @@ Discount amount
 
 > `optional` **discountRatio**: `number`
 
-Defined in: [types/invoice.ts:78](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L78)
+Defined in: [types/invoice.ts:78](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L78)
 
 Discount ratio (percentage)
 
@@ -36,7 +36,7 @@ Discount ratio (percentage)
 
 > **note**: `string`
 
-Defined in: [types/invoice.ts:82](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L82)
+Defined in: [types/invoice.ts:82](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L82)
 
 Note for the product
 
@@ -46,7 +46,7 @@ Note for the product
 
 > **price**: `number`
 
-Defined in: [types/invoice.ts:76](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L76)
+Defined in: [types/invoice.ts:76](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L76)
 
 Price
 
@@ -56,7 +56,7 @@ Price
 
 > `optional` **productBatchExpire**: [`ProductBatchExpire`](ProductBatchExpire.md)
 
-Defined in: [types/invoice.ts:86](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L86)
+Defined in: [types/invoice.ts:86](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L86)
 
 Product batch expire information
 
@@ -66,7 +66,7 @@ Product batch expire information
 
 > **productCode**: `string`
 
-Defined in: [types/invoice.ts:70](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L70)
+Defined in: [types/invoice.ts:70](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L70)
 
 Product code
 
@@ -76,7 +76,7 @@ Product code
 
 > **productId**: `number`
 
-Defined in: [types/invoice.ts:68](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L68)
+Defined in: [types/invoice.ts:68](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L68)
 
 Product ID
 
@@ -86,7 +86,7 @@ Product ID
 
 > **productName**: `string`
 
-Defined in: [types/invoice.ts:72](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L72)
+Defined in: [types/invoice.ts:72](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L72)
 
 Product name (including attributes and unit)
 
@@ -96,7 +96,7 @@ Product name (including attributes and unit)
 
 > **quantity**: `number`
 
-Defined in: [types/invoice.ts:74](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L74)
+Defined in: [types/invoice.ts:74](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L74)
 
 Quantity
 
@@ -106,6 +106,6 @@ Quantity
 
 > **serialNumbers**: `string`
 
-Defined in: [types/invoice.ts:84](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/676f2b78f45e8d9692112eb5adfe51e7b2ec8456/src/types/invoice.ts#L84)
+Defined in: [types/invoice.ts:84](https://github.com/epoxyteam/kiotviet-fnb-sdk/blob/a1293966c8b57a40c13f5eb490a83c745c2d3af1/src/types/invoice.ts#L84)
 
 Serial numbers (IMEI list)
